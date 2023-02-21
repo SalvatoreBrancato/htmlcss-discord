@@ -37,12 +37,17 @@ ul{
 
 li{
     display: inline-block;   
-    margin: 0 15px; 
+    margin: 0 25px; 
 }
 
 a{
     text-decoration: none;
     color: white;
+}
+
+.mac > a{
+    text-decoration: none;
+    color: black;
 }
 
 .container-a{
@@ -65,21 +70,21 @@ a{
 }
 
 .container-c{
-    height: 400px;
-    width: 100%;
-    background-color: lightslategray;
+    /* height: 400px;
+    width: 100%; */
+    background-color: rgb(197, 197, 198);
     display: flex;
     justify-content: center;
-    align-items: center
+    /* align-items: center */
 }
 
 .container-d{
-    height: 800px;
-    width: 100%;
-    background-color: lightslategray;
+    /* height: 800px;
+    width: 100%; */
+    background-color: rgb(197, 197, 198);
     display: flex;
     justify-content: center;
-    align-items: center
+    /* align-items: center */
 }
 
 .container-e{
@@ -110,16 +115,45 @@ h1{
     margin-bottom: 60px;
 }
 
-h2{
-    font-family: 'Rubik', sans-serif;
-    font-size: 60px;
-    margin-left: 50px;
-}
-
-p{
+.description{
+    color: white;
     font-family: 'Rubik', sans-serif;
     font-size: 22px;
     font-weight: bold;
+    margin-top: 30px;
+    margin-bottom: 50px;
+    margin-left: 50px;
+}
+
+h2{
+    font-family: 'Rubik', sans-serif;
+    font-size: 40px;
+    margin-left: 50px;
+}
+
+.h2-footer{
+    font-family: 'Rubik', sans-serif;
+    font-size: 40px;
+    margin-top: 10px;
+    margin-bottom: 50px;
+
+}
+
+h3{
+    font-family: 'Rubik', sans-serif;
+    font-size: 30px;
+    text-align: center;
+    background-image: url(../img/stars.svg);
+    background-position: center;
+    padding-bottom: 20px;
+    /* background-size: cover; */
+    /* margin-left: 50px; */
+}
+
+.description-2{
+    font-family: 'Rubik', sans-serif;
+    font-size: 25px;
+    /* font-weight: bold; */
     margin-top: 30px;
     margin-bottom: 50px;
     margin-left: 50px;
@@ -128,7 +162,8 @@ p{
 
 
 .box-a{
-    margin-top: 120px;
+    margin-top: 170px;
+    margin-bottom: 170px;
     /* height: 80%;
     width: 35%; */
     /* background-color: rgb(0, 162, 255);
@@ -137,20 +172,23 @@ p{
 
 .box-b{
     /* height: 80%;*/
-    width: 25%;
-    margin-top: 120px;
+    width: 20%;
+    margin-top: 170px;
+    margin-bottom: 170px;
     /* background-color: lightpink;  
     border: 2px solid black; */
 }
 
 .box-c{
-    height: 90%;
-    width: 60%;
-    background-color: green; 
-    border: 2px solid black;
-    display: flex;
+    /* height: 90%; */
+    width: 50%;
+    margin-top: 170px;
+    /* background-color: green; 
+    border: 2px solid black; */
+    display: flex; 
+    flex-direction: column;
     justify-content: center;
-    align-items: flex-end;
+    /* align-items: flex-end; */
 }
 
 .box-d{
@@ -204,4 +242,5 @@ p{
     padding: 10px 10px;    
     margin-left: 30px;
 }
+
 
