@@ -27,7 +27,7 @@ nav{
     padding: 10px;
     text-decoration: none;
     font-weight: bold;
-    
+
 }
 
 .ul-nav{
@@ -36,9 +36,9 @@ nav{
 }
 
 .li-nav{
-    display: inline-block;   
-    margin: 0 25px; 
-    color: white;    
+    display: inline-block;
+    margin: 0 25px;
+    color: white;
     font-weight: bold;
     list-style-type: none;
 }
@@ -92,7 +92,7 @@ nav{
 .container-e{
     background-color: black;
     display: flex;
-    justify-content: center;    
+    justify-content: center;
 }
 
 .container-f{
@@ -101,7 +101,7 @@ nav{
     justify-content:space-around;
     padding-top: 20px;
     padding-bottom: 20px;
-} 
+}
 
 
 .box{
@@ -156,7 +156,7 @@ h4{
     font-size: 40px;
     text-align: left;
     margin-top: 30px;
-    margin-bottom: 20px; 
+    margin-bottom: 20px;
     color: rgb(114, 114, 219);
 }
 
@@ -171,27 +171,26 @@ span{
     font-family: 'Rubik', sans-serif;
     font-size: 25px;
     margin-top: 30px;
-    margin-bottom: 50px;
+    margin-bottom: 20px;
     margin-left: 50px;
 
 }
 
 
 .box-a{
-    margin-top: 170px;
-    margin-bottom: 170px;
+    margin-top: 50px;
+    margin-bottom: 50px;
 }
 
 .box-b{
     width: 20%;
-    margin-top: 170px;
-    margin-bottom: 170px;
+    margin-top: 70px;
+    margin-bottom: 20px;
 }
 
 .box-c{
     width: 50%;
-    margin-top: 170px;
-    display: flex; 
+    display: flex;
     flex-direction: column;
     justify-content: center;
 }
@@ -212,7 +211,7 @@ hr{
     border-color: gray;
 }
 
-.box-f{    
+.box-f{
     width: 5%;
     background-color: rgb(98, 109, 230);
     border-radius: 20px;
@@ -228,15 +227,15 @@ hr{
     font-weight: bold;
 }
 
-.mac{    
+.mac{
     border-radius: 20px;
     background-color: white;
     font-family: 'Rubik', sans-serif;
     text-align: center;
     display: inline-block;
-    padding: 10px 10px;  
-    
-} 
+    padding: 10px 10px;
+
+}
 .mac > a{
     text-decoration: none;
     color: black;
@@ -244,15 +243,15 @@ hr{
 }
 
 
-.mac-2{   
+.mac-2{
     width: 20%;
-    margin: auto; 
+    margin: auto;
     border-radius: 20px;
     background-color: rgb(98, 109, 230);
     font-family: 'Rubik', sans-serif;
     text-align: center;
     display: inline-block;
-    padding: 10px 10px;    
+    padding: 10px 10px;
 }
 
 .mac-2 > a{
@@ -268,7 +267,7 @@ hr{
     font-weight: bold;
     text-align: center;
     display: inline-block;
-    padding: 10px 10px;    
+    padding: 10px 10px;
     margin-left: 30px;
 }
 
@@ -279,4 +278,15 @@ hr{
 
 .bandiera{
     width: 30px;
+}
+
+.wave{
+    background-image: url(../img/wave.svg);
+    display: block;
+    height: 180px;
+    filter: invert(93%) sepia(0%) saturate(7470%) hue-rotate(233deg) brightness(87%) contrast(89%);
+}
+
+.rotate{
+    transform: rotate(180deg);
 }
